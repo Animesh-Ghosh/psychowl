@@ -177,8 +177,9 @@ Languages are added in waves; adding one is a data change, not a code change
 |---|---|
 | 1 (0.1) | Arabic, English, French, German, Italian, Japanese, Mandarin, Portuguese, Russian, Spanish |
 | 2 (0.1) | Dutch, Hindi, Indonesian, Korean, Polish, Turkish, Ukrainian, Vietnamese |
-| 3 | the rest of whatlang's 70 |
-| 4 | new languages trained from our own corpora |
+| 3 | Marathi (Devanagari, alongside Hindi) |
+| 4 | the rest of whatlang's 70 |
+| 5 | new languages trained from our own corpora |
 
 Script detection covers 25 writing systems already. A text in a script with
 no supported language yet (Greek, Thai...) has a script but no language.
