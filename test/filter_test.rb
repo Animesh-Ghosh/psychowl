@@ -38,6 +38,13 @@ class FilterTest < Minitest::Test
     assert_equal 'jpn', Psychowl.detect_lang(japanese, denylist: [:cmn]).code
   end
 
+  def test_filter_applies_to_devanagari
+    marathi = 'संध्याकाळी आपण ऑनलाइन जेवण मागवूया का? मला आज स्वयंपाक करायचा कंटाळा आला आहे.'
+
+    assert_equal 'mar', Psychowl.detect_lang(marathi).code
+    assert_equal 'hin', Psychowl.detect_lang(marathi, allowlist: [:hin]).code
+  end
+
   def test_invalid_filters
     assert_raises(ArgumentError) { Psychowl.detect('x', allowlist: [:eng], denylist: [:fra]) }
     assert_raises(ArgumentError) { Psychowl.detect('x', allowlist: []) }

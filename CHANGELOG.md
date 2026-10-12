@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+Wave 3: Marathi.
+
+- Marathi and Hindi are both written in Devanagari, so Devanagari text is
+  now scored between the two instead of always being detected as Hindi at
+  full confidence. Short Hindi text can come back with a lower confidence.
+- Devanagari alphabets: `ळ` favours Marathi, nukta forms favour Hindi.
+
 ## 0.1.0 (2026-10-08)
 
 First release, for Ruby 4.0+ (CRuby, JRuby 10.1+, TruffleRuby 40+): 18 languages

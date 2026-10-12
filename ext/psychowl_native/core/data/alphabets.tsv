@@ -1,11 +1,13 @@
 # Letters commonly used by a language, lowercase. Only used for scripts
-# shared by several languages (Latin, Cyrillic).
+# shared by several languages (Latin, Cyrillic, Devanagari).
 # code	letters
 deu	abcdefghijklmnopqrstuvwxyzßäöü
 eng	abcdefghijklmnopqrstuvwxyz
 fra	abcdefghijklmnopqrstuvwxyzàâçèéêëîïôùûüÿœ
+hin	अआइईउऊऋएऐऑओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहािीुूृॅेैॉोौँंः्ऽ।॥़क़ख़ग़ज़ड़ढ़फ़
 ind	abcdefghijklmnopqrstuvwxyz
 ita	abcdefghijklmnopqrstuvwxyzàèéìòù
+mar	अआइईउऊऋएऐऑओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहािीुूृॅेैॉोौँंः्ऽ।॥ळ
 nld	abcdefghijklmnopqrstuvwxyzàèéëïĳ
 pol	abcdefghijklmnopqrstuvwxyzóąćęłńśźż
 por	abcdefghijklmnopqrstuvwxyzàáâãçéêíóôõú
