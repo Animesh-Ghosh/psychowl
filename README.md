@@ -41,6 +41,7 @@ Heads of state make the best test data: they talk a lot and say nothing.
 | jpn | 首相は「前向きに検討します」と言いました。 | The prime minister said he will "consider it positively". |
 | kor | 대통령은 부동산 가격이 안정되었다고 말했다. 집값은 그 말을 듣지 못했다. | The president said housing prices have stabilized. Housing prices didn't hear him. |
 | hin | नेताजी ने वादा किया कि इस बार बिजली नहीं जाएगी। फिर बिजली चली गई। | The politician promised the power won't go out this time. Then the power went out. |
+| mar | मंत्र्यांनी आश्वासन दिले की या वर्षी रस्त्यांवर एकही खड्डा राहणार नाही. रस्त्याला हे कळवले गेले नाही. | The minister promised not a single pothole will be left on the roads this year. Nobody informed the road. |
 | tur | Bakan, ekonominin uçuşa geçtiğini söyledi. Kimse paraşüt dağıtmadı. | The minister said the economy has taken off. Nobody handed out parachutes. |
 | nld | De regering is gevallen. Dat is al de derde keer deze maand, en het is pas dinsdag. | The government has fallen. Third time this month, and it's only Tuesday. |
 | pol | Prezydent obiecał, że pociąg przyjedzie punktualnie. Pociąg nie został o tym poinformowany. | The president promised the train will be on time. Nobody told the train. |
