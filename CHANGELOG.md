@@ -2,16 +2,18 @@
 
 ## Unreleased
 
-Wave 3: Bengali, Marathi and Nepali.
+Wave 3: Bengali, Marathi, Nepali and Tamil.
 
 - Bengali script text is now detected as Bengali instead of having a script
   but no language.
-
 - Hindi, Marathi and Nepali are all written in Devanagari, so Devanagari
   text is now scored between them instead of always being detected as Hindi
   at full confidence. Short Hindi text can come back with a lower confidence.
 - Devanagari alphabets: `ळ` favours Marathi, nukta forms favour Hindi.
 - Nepali maps to PostgreSQL's `nepali` text search configuration.
+- Tamil is the only language written in the Tamil script, so Tamil text is
+  detected at full confidence. It maps to PostgreSQL's `tamil` text search
+  configuration.
 
 ## 0.1.0 (2026-10-08)
 
